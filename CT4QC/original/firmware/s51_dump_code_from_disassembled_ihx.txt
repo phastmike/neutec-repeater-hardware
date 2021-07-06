@@ -1,0 +1,263 @@
+[miguel@asusforge ~]$ /usr/libexec/sdcc/s51 chip1.ihx 
+uCsim 0.6-pre56, Copyright (C) 1997 Daniel Drotos.
+uCsim comes with ABSOLUTELY NO WARRANTY; for details type `show w'.
+This is free software, and you are welcome to redistribute it
+under certain conditions; type `show c' for details.
+0> Loading from chip1.ihx
+2048 words read from chip1.ihx
+dc
+   0x0000 02 00 03 LJMP  0003
+   0x0003 ff       MOV   R7,A
+   0x0004 ff       MOV   R7,A
+   0x0005 ff       MOV   R7,A
+   0x0006 ff       MOV   R7,A
+   0x0007 ff       MOV   R7,A
+   0x0008 ff       MOV   R7,A
+   0x0009 ff       MOV   R7,A
+   0x000a ff       MOV   R7,A
+   0x000b ff       MOV   R7,A
+   0x000c ff       MOV   R7,A
+   0x000d ff       MOV   R7,A
+   0x000e ff       MOV   R7,A
+   0x000f ff       MOV   R7,A
+   0x0010 ff       MOV   R7,A
+   0x0011 ff       MOV   R7,A
+   0x0012 ff       MOV   R7,A
+   0x0013 ff       MOV   R7,A
+   0x0014 ff       MOV   R7,A
+0>   
+   0x0015 ff       MOV   R7,A
+   0x0016 ff       MOV   R7,A
+   0x0017 ff       MOV   R7,A
+   0x0018 ff       MOV   R7,A
+   0x0019 ff       MOV   R7,A
+   0x001a ff       MOV   R7,A
+   0x001b ff       MOV   R7,A
+   0x001c ff       MOV   R7,A
+   0x001d ff       MOV   R7,A
+   0x001e ff       MOV   R7,A
+   0x001f ff       MOV   R7,A
+   0x0020 ff       MOV   R7,A
+   0x0021 ff       MOV   R7,A
+   0x0022 ff       MOV   R7,A
+   0x0023 ff       MOV   R7,A
+   0x0024 ff       MOV   R7,A
+   0x0025 ff       MOV   R7,A
+   0x0026 ff       MOV   R7,A
+   0x0027 ff       MOV   R7,A
+   0x0028 ff       MOV   R7,A
+   0x0029 ff       MOV   R7,A
+0> 
+   0x002a ff       MOV   R7,A
+   0x002b ff       MOV   R7,A
+   0x002c ff       MOV   R7,A
+   0x002d ff       MOV   R7,A
+   0x002e ff       MOV   R7,A
+   0x002f 75 81 2f MOV   SP,#2f
+   0x0032 78 00    MOV   R0,#00
+   0x0034 79 00    MOV   R1,#00
+   0x0036 7a 00    MOV   R2,#00
+   0x0038 7b 00    MOV   R3,#00
+   0x003a 7c 00    MOV   R4,#00
+   0x003c 7d 00    MOV   R5,#00
+   0x003e 7e 00    MOV   R6,#00
+0> 
+   0x0040 7f 00    MOV   R7,#00
+   0x0042 75 90 ff MOV   P1,#ff
+   0x0045 c2 91    CLR   P1.1
+   0x0047 75 b0 ff MOV   P3,#ff
+   0x004a 75 81 18 MOV   SP,#18
+   0x004d 12 01 3b LCALL 013b
+   0x0050 c2 96    CLR   P1.6
+   0x0052 12 01 3b LCALL 013b
+0> 
+   0x0055 12 01 5b LCALL 015b
+   0x0058 12 01 48 LCALL 0148
+   0x005b 12 01 5b LCALL 015b
+   0x005e 12 01 48 LCALL 0148
+   0x0061 12 01 3b LCALL 013b
+   0x0064 12 01 5b LCALL 015b
+   0x0067 12 01 3b LCALL 013b
+0> 
+   0x006a 12 01 5b LCALL 015b
+   0x006d 12 01 5b LCALL 015b
+   0x0070 12 01 5b LCALL 015b
+   0x0073 12 01 5b LCALL 015b
+   0x0076 12 01 5b LCALL 015b
+   0x0079 12 01 3b LCALL 013b
+   0x007c 12 01 48 LCALL 0148
+0> 
+   0x007f 12 01 48 LCALL 0148
+   0x0082 12 01 5b LCALL 015b
+   0x0085 12 01 3b LCALL 013b
+   0x0088 12 01 5b LCALL 015b
+   0x008b 12 01 5b LCALL 015b
+   0x008e 12 01 48 LCALL 0148
+   0x0091 12 01 3b LCALL 013b
+0> 
+   0x0094 12 01 5b LCALL 015b
+   0x0097 12 01 5b LCALL 015b
+   0x009a 12 01 3b LCALL 013b
+   0x009d 30 97 51 JNB   P1.7,00f1
+   0x00a0 12 01 3b LCALL 013b
+   0x00a3 12 01 48 LCALL 0148
+   0x00a6 12 01 48 LCALL 0148
+0> 
+   0x00a9 12 01 3b LCALL 013b
+   0x00ac 12 01 5b LCALL 015b
+   0x00af 12 01 48 LCALL 0148
+   0x00b2 12 01 3b LCALL 013b
+   0x00b5 12 01 48 LCALL 0148
+   0x00b8 12 01 48 LCALL 0148
+   0x00bb 12 01 48 LCALL 0148
+0> 
+   0x00be 12 01 48 LCALL 0148
+   0x00c1 12 01 48 LCALL 0148
+   0x00c4 12 01 3b LCALL 013b
+   0x00c7 12 01 48 LCALL 0148
+   0x00ca 12 01 5b LCALL 015b
+   0x00cd 12 01 5b LCALL 015b
+   0x00d0 12 01 5b LCALL 015b
+0> 
+   0x00d3 12 01 5b LCALL 015b
+   0x00d6 12 01 3b LCALL 013b
+   0x00d9 12 01 48 LCALL 0148
+   0x00dc 12 01 48 LCALL 0148
+   0x00df 12 01 5b LCALL 015b
+   0x00e2 12 01 3b LCALL 013b
+   0x00e5 12 01 5b LCALL 015b
+0> 
+   0x00e8 12 01 48 LCALL 0148
+   0x00eb 12 01 5b LCALL 015b
+   0x00ee 12 01 3b LCALL 013b
+   0x00f1 d2 96    SETB  P1.6
+   0x00f3 12 01 23 LCALL 0123
+   0x00f6 01 4d    AJMP  004d
+   0x00f8 7a 02    MOV   R2,#02
+   0x00fa 79 10    MOV   R1,#10
+   0x00fc 78 ff    MOV   R0,#ff
+0> 
+   0x00fe d8 fe    DJNZ  R0,00fe
+   0x0100 d9 fa    DJNZ  R1,00fc
+   0x0102 da f6    DJNZ  R2,00fa
+   0x0104 22       RET
+   0x0105 7a 02    MOV   R2,#02
+   0x0107 79 28    MOV   R1,#28
+   0x0109 b2 94    CPL   P1.4
+   0x010b 78 64    MOV   R0,#64
+   0x010d d8 fe    DJNZ  R0,010d
+   0x010f d9 f8    DJNZ  R1,0109
+   0x0111 da f4    DJNZ  R2,0107
+0> 
+   0x0113 22       RET
+   0x0114 7a 06    MOV   R2,#06
+   0x0116 79 28    MOV   R1,#28
+   0x0118 b2 94    CPL   P1.4
+   0x011a 78 64    MOV   R0,#64
+   0x011c d8 fe    DJNZ  R0,011c
+   0x011e d9 f8    DJNZ  R1,0118
+   0x0120 da f4    DJNZ  R2,0116
+   0x0122 22       RET
+   0x0123 7c 09    MOV   R4,#09
+   0x0125 7b 03    MOV   R3,#03
+   0x0127 7a 3a    MOV   R2,#3a
+0> 
+   0x0129 79 fc    MOV   R1,#fc
+   0x012b 30 b7 0c JNB   P3.7,013a
+   0x012e 78 ff    MOV   R0,#ff
+   0x0130 d8 fe    DJNZ  R0,0130
+   0x0132 d9 fa    DJNZ  R1,012e
+   0x0134 da f3    DJNZ  R2,0129
+   0x0136 db ef    DJNZ  R3,0127
+   0x0138 dc eb    DJNZ  R4,0125
+   0x013a 22       RET
+   0x013b 12 00 f8 LCALL 00f8
+0> 
+   0x013e 12 00 f8 LCALL 00f8
+   0x0141 12 00 f8 LCALL 00f8
+   0x0144 12 00 f8 LCALL 00f8
+   0x0147 22       RET
+   0x0148 d2 91    SETB  P1.1
+   0x014a c2 92    CLR   P1.2
+   0x014c d2 94    SETB  P1.4
+   0x014e 12 01 05 LCALL 0105
+   0x0151 c2 91    CLR   P1.1
+0> 
+   0x0153 d2 92    SETB  P1.2
+   0x0155 d2 94    SETB  P1.4
+   0x0157 12 00 f8 LCALL 00f8
+   0x015a 22       RET
+   0x015b d2 91    SETB  P1.1
+   0x015d c2 92    CLR   P1.2
+   0x015f d2 94    SETB  P1.4
+   0x0161 12 01 14 LCALL 0114
+   0x0164 c2 91    CLR   P1.1
+   0x0166 d2 92    SETB  P1.2
+0> 
+   0x0168 d2 94    SETB  P1.4
+   0x016a 12 00 f8 LCALL 00f8
+   0x016d 22       RET
+ ? 0x016e ff       MOV   R7,A
+ ? 0x016f ff       MOV   R7,A
+ ? 0x0170 ff       MOV   R7,A
+ ? 0x0171 ff       MOV   R7,A
+ ? 0x0172 ff       MOV   R7,A
+ ? 0x0173 ff       MOV   R7,A
+ ? 0x0174 ff       MOV   R7,A
+ ? 0x0175 ff       MOV   R7,A
+ ? 0x0176 ff       MOV   R7,A
+ ? 0x0177 ff       MOV   R7,A
+ ? 0x0178 ff       MOV   R7,A
+ ? 0x0179 ff       MOV   R7,A
+ ? 0x017a ff       MOV   R7,A
+ ? 0x017b ff       MOV   R7,A
+ ? 0x017c ff       MOV   R7,A
+0> 
+ ? 0x017d ff       MOV   R7,A
+ ? 0x017e ff       MOV   R7,A
+ ? 0x017f ff       MOV   R7,A
+ ? 0x0180 ff       MOV   R7,A
+ ? 0x0181 ff       MOV   R7,A
+ ? 0x0182 ff       MOV   R7,A
+ ? 0x0183 ff       MOV   R7,A
+ ? 0x0184 ff       MOV   R7,A
+ ? 0x0185 ff       MOV   R7,A
+ ? 0x0186 ff       MOV   R7,A
+ ? 0x0187 ff       MOV   R7,A
+ ? 0x0188 ff       MOV   R7,A
+ ? 0x0189 ff       MOV   R7,A
+ ? 0x018a ff       MOV   R7,A
+ ? 0x018b ff       MOV   R7,A
+ ? 0x018c ff       MOV   R7,A
+ ? 0x018d ff       MOV   R7,A
+ ? 0x018e ff       MOV   R7,A
+ ? 0x018f ff       MOV   R7,A
+ ? 0x0190 ff       MOV   R7,A
+ ? 0x0191 ff       MOV   R7,A
+0> 
+ ? 0x0192 ff       MOV   R7,A
+ ? 0x0193 ff       MOV   R7,A
+ ? 0x0194 ff       MOV   R7,A
+ ? 0x0195 ff       MOV   R7,A
+ ? 0x0196 ff       MOV   R7,A
+ ? 0x0197 ff       MOV   R7,A
+ ? 0x0198 ff       MOV   R7,A
+ ? 0x0199 ff       MOV   R7,A
+ ? 0x019a ff       MOV   R7,A
+ ? 0x019b ff       MOV   R7,A
+ ? 0x019c ff       MOV   R7,A
+ ? 0x019d ff       MOV   R7,A
+ ? 0x019e ff       MOV   R7,A
+ ? 0x019f ff       MOV   R7,A
+ ? 0x01a0 ff       MOV   R7,A
+ ? 0x01a1 ff       MOV   R7,A
+ ? 0x01a2 ff       MOV   R7,A
+ ? 0x01a3 ff       MOV   R7,A
+   0x01a4 ff       MOV   R7,A
+   0x01a5 ff       MOV   R7,A
+   0x01a6 ff       MOV   R7,A
+0> 
+...
+...
+[Ended her but could continue?]
+
