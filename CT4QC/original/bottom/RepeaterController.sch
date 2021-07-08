@@ -1166,4 +1166,6 @@ Wire Wire Line
 Wire Wire Line
 	2950 2150 3250 2150
 Connection ~ 3250 2150
+Text Notes 7000 6250 0    50   ~ 0
+NOTES:\n\n- 5V comes from regulator in the radio (near front panel)
 $EndSCHEMATC

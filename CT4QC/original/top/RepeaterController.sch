@@ -921,8 +921,8 @@ Wire Wire Line
 	8950 2550 9100 2550
 Text Notes 4050 1350 0    50   ~ 0
 Morse Tone Generator\n   - Disabled -
-Text Notes 8050 6200 0    50   ~ 0
-NOTES:\n- Morse Tone generator is disabled (jumper is cut)
+Text Notes 7000 6300 0    50   ~ 0
+NOTES:\n\n- Morse Tone generator is disabled (jumper is cut)
 Wire Wire Line
 	5600 4700 5600 5050
 Wire Wire Line
