@@ -142,6 +142,7 @@ As novas placas, esquemas e firmware.
 - [Placa de baixo](./CT1ENQ_CT1EYN/bottom)
 - [Placa de cima](./CT1ENQ_CT1EYN/top)
 - [Novo firmware e código fonte (AT89C2051)](./CT1ENQ_CT1EYN/firmware)
+- [Manual](./CT1ENQ_CT1EYN/manual)
 
 ### [CT4QC](./CT4QC)
 
