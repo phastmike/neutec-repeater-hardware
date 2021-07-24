@@ -26,16 +26,16 @@ Imagem com identificação das partes a explicar:
 - **J3 e J4**: Saída de 13.8V para as ventoínhas.
  - **J3**: acompanha retransmissão (desliga com *timeout*)
  - **J4**: acompanha presença de CTCSS (mesmo após *timeout*)
-- **RV1**: Sintonia do tom CTCSS (afinado para 123 Hz)
-- **RV2**: Tempo de *timeout* (afinado para 3 minutos)
-- **RV3**: Tempo de cauda (pequeno ajuste, não se nota devido à cauda já 
+- **RV1**: Sintonia do tom CTCSS (afinado para **123 Hz**)
+- **RV2**: Tempo de *timeout* (afinado para **180s = 3 min**)
+- **RV3**: Tempo de cauda (pequeno ajuste; não se nota muito devido à cauda já 
 existente)
 - **D2**: Led indica detecção de tom CTCSS
 - **JP1**: Se colocado, permite controlo de PTT através da placa de cima (ID).
 
 Em J2, pinos 7 e 8, sinal de PTT, um é utilizado para ligar ao PTT do rádio
-e outra serve para enviar o sinal de PTT para a placa de cima. Os pinos 1 e 3
-para entrada/saída de audio aplicava-se no caso do repetidor de UHF. Aqui basta
+e o outro serve para enviar o sinal de PTT para a placa de cima. Os pinos 1 e 3
+para entrada/saída de audio aplicavam-se no caso do repetidor de UHF. Aqui basta
 utilizar um dos pinos.
 
 
@@ -68,10 +68,10 @@ Imagem com identificação das partes a explicar:
  tipo de identificação definido)
  - **Ligado** quando está no período de pré identificação, a avaliar utilização
  do repetidor
-- **RV3**: Pitch/Tom do sinal de morse
+- **RV3**: *Pitch*/Tom do sinal de morse
 - **RV2**: Volume áudio do sinal de morse
 - **RV1**: Volume áudio do sinal de Voz (ISD1820)
-- **SW1**: Reset/Reiniciar microcontrolador
+- **SW1**: *Reset*/Reiniciar microcontrolador
 - **JP1**: Selecciona tipo de identificação áudio
  - **1-2** : Voz
  - **2-3** : Morse
@@ -84,7 +84,7 @@ Imagem com identificação das partes a explicar:
 O equipamento já era repetidor de origem, embora para tal, era necessário
 colocar o *Squelch* no mínimo desligando o interruptor acoplado. O Costa (CT1EYN)
 fez um *bypass* e agora **o rádio está sempre em modo repetidor**, 
-independentemente da posição do *Squelch* (Indicado pelo Led **Repeat**).
+independentemente da posição do *Squelch* (Indicado pelo Led ***Repeat***).
 
 Dada a natureza do rádio, as alterações necessárias no próprio rádio foram
 poucas e pouco intrusivas. Infelizmente o esquema não tinha referências para os
@@ -101,16 +101,16 @@ placa de baixo, representada na figura em baixo no ponto **A**.
 
 ![Neutec Mods](pictures/neutec_mods.jpg)
 
-No ponto B está representado o ponto para ir buscar o sinal de áudio ao 
+Em **B** está representado o ponto para ir buscar o sinal de áudio ao 
 discriminador (J102) ou então ligar a um pino que foi preparado para utilizar a
-saída para o auscultador externo (com jumper verde), mas aqui o volume passa a
+saída do auscultador externo (com jumper verde), mas aqui o volume passa a
 influenciar o sinal que vai para o detector de tom. Quando o sinal está ligado
-a este ponto, o volume estar na posição indicada na figura:
+a este ponto, o volume deve estar na posição indicada na figura:
 
 <center>![Neutec Volume](pictures/volume.jpg)</center>
 
 O J102 representado no esquema, é o sinal à saída do discriminador e é um
-ligador de dois pinos (*shuntados*).
+ligador de dois pinos ("*shuntados*").
 
 ![Neutec J102](pictures/s4.png)
 
@@ -130,7 +130,9 @@ repetidor no ar.
 
 ## Créditos
 
-2020/2021
+2020/2021 Versão 1.1
 
 - CT1ENQ (Miguel) ct1enq@gmail.com
 - CT1EYN (Costa) ct1eyn@hotmail.com
+
+## 
